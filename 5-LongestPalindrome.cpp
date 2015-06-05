@@ -66,10 +66,49 @@ public:
 
 
 /*=============================Solution3============================*/
-//
+//124ms, O(N)
+//references:http://articles.leetcode.com/2011/11/longest-palindromic-substring-part-ii.html
 class Solution {
 public:
-	string expand(string s, int index1, int index2) {
-		
+	//for example, change "abcde" to "^#a#b#c#d#e#$"
+	string preProcess(string s) {
+		int n = s.length();
+		if(n == 0) return "^$";
+		string ret = "^";
+		for(int i = 0; i < n; i++) 
+			ret += '#'+s.substr(i,1);
+		ret += "#$";
+		return ret;
+	}
+	
+	string longestPalindrome(string s) {
+		string T = preProcess(s);	
+		int n = T.length();
+		int *p = new int[n];
+		int c = 0, r = 0;
+		for(int i = 1; i < n-1; i++) {
+			int i_mirror = 2*c-i; //(i+i_mirror)/2=c
+			p[i] = (r > i) ? min(r-i, p[i_mirror]) : 0;
+
+			while(T[i+1+p[i]] == T[i-1-p[i]])
+				p[i]++;
+
+			if(i + p[i] > r) {
+				c = i;
+				r = 1 + p[i];
+			}
+		}
+
+		int maxlen = 0;
+		int center = 0;
+		for(int i = 1; i < n-1; i++) {
+			if(p[i] > maxlen) {
+				maxlen = p[i];
+				center = i;
+			}
+		}
+		delete[] p;
+
+		return s.substr((center-1-maxlen)/2, maxlen);
 	}
 }
