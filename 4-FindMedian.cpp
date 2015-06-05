@@ -102,3 +102,41 @@ public://基本思想是归并排序
 
     }
 };
+
+/*==========================Solution 2=============================*/
+//Find the Kth 
+class Solution {
+public:
+   double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) { 
+        int m=nums1.size(), n=nums2.size();
+        int k = m+n;
+        int res1 = findKth(nums1.begin(), m, nums2.begin(), n, k/2+1);
+        if(k%2) return 1.0*res1;
+        else {
+            int res2 = findKth(nums1.begin(), m, nums2.begin(), n, k/2);
+            return 1.0*(res1+res2)/2.0;
+        }
+    }
+
+private:
+    typedef vector<int>::iterator iter;
+    int findKth(iter a, int m, iter b, int n, int k) {
+        if(m > n)  //guarantee that m <= n
+            return findKth(b,n,a,m,k); //exchange
+        if(m == 0) 
+            return *(b+k-1);
+        if(k == 1) 
+            return min(*a,*b);
+
+        int pa = min(k/2, m);
+        int pb = k - pa;
+        if(*(a+pa-1) < *(b+pb-1))
+            return findKth(a+pa, m-pa, b, n, k-pa);
+        else if(*(a+pa-1) > *(b+pb-1)) 
+            return findKth(a, m, b+pb, n-pb, k-pb);
+        else
+            return *(a+pa-1);
+    }
+
+};
+
