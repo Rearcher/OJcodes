@@ -44,7 +44,7 @@ public:
 			l--;
 			r++;
 		}
-		return s.substr(l+1, r-l-1);
+		return s.substr(l+1, r-l-1);//len:r-l-1 = (r-1)-(l+1)+1
 	}
 	
 	string longestPalindrome(string s) {
@@ -89,7 +89,7 @@ public:
 		for(int i = 1; i < n-1; i++) {
 			int i_mirror = 2*c-i; //(i+i_mirror)/2=c
 			p[i] = (r > i) ? min(r-i, p[i_mirror]) : 0;
-
+			
 			while(T[i+1+p[i]] == T[i-1-p[i]])
 				p[i]++;
 
