@@ -1,4 +1,4 @@
-class Solutin {
+class Solution {
 public:
 	bool isPalindrome(int x) {
     	if(x==0) return true; 
@@ -23,3 +23,18 @@ public:
     	return true;
 	}
 };
+
+//Another one solution, simpler
+class Solution {
+public:
+	bool isPalindrome(int x) {
+		if(x < 0)  return false;
+		int t = 0, copy_x = x;
+		while(x/10) {
+			t = t*10 + x%10;
+			x /= 10;
+		}
+		t = t*10+x;
+		return t==copy_x;
+	}
+}
