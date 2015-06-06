@@ -8,14 +8,16 @@ class Solution{
 		bool flag=true;
 		int i;
 		for(i=0; i<str.length() && str[i]==' '; i++);
+		//ignore leading whitespace
 		if(str[i]!='-' && str[i]!='+' && (str[i]<'0'||str[i]>'9'))
 			return 0;
-
+		//if the first element is beyond -,+,0~9, return 0
 		if(str[i]=='-') {flag=false; i++;}
 		else if(str[i]=='+') i++;
 
 		for(; i<str.length(); i++) {
 			if(str[i]<'0' || str[i]>'9') break;
+			//ignore invalid elements behind
 			int digit=str[i]-'0';
 			ans = ans*10+digit;
 			if(ans >= max) break; //if ans has been overflow, no need to calculate any more.
