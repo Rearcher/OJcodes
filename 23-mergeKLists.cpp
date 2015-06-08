@@ -46,3 +46,39 @@ class Solution {
 		return mergeKLists(ans);
 	}
 };
+
+//Solution2, use heap(size k). choose the least val
+class Solution {
+	ListNode* mergeKLists(vector<ListNode*>& Lists) {
+		vector<ListNode*>::iterator it = Lists.begin();
+		while(it != Lists.end()) {
+			if(*it==NULL) Lists.erase(it);
+			else ++it;
+		}
+		if(Lists.size()<1) return NULL;
+
+		ListNode *head = NULL, *cur = NULL;
+		make_heap(Lists.begin(), Lists.end(), cmp());
+
+		while(List.size() > 0) {
+			if(head == NULL) head = cur = Lists[0];
+			else cur = cur->next = Lists[0];
+
+			pop_heap(Lists.begin(), Lists.end(), cmp());
+			int last = Lists.size() - 1;
+			if(Lists[last]->next != NULL) {
+				Lists[last] = Lists[last]->next;
+				push_heap(Lists.begin(), Lists.end(), cmp());
+			}
+			else Lists.pop_back();
+		}
+		return head;
+	}
+
+	class cmp {
+	public:
+		bool operator() (const ListNode* a, const ListNode* b) const {
+			return (a->val > b->val);
+		}		
+	};
+}
