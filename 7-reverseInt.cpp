@@ -2,7 +2,7 @@ class Solution {
 public:
 	int reverse(int x) {
     	bool flag = false;
-    	long long max = (1<<31)&(0x80000000); //the max of 32-bit int
+    	long long max = 0x80000000; //MAX_INT+1
     	long long temp = x;
     	if(x > 0) flag = true;
     	else if(x == 0) return 0;

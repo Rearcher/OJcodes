@@ -3,7 +3,7 @@ class Solution{
 		if(str.length()==0) return 0; //if the str is empty
 	
 		long long min = (1<<31);
-		long long max = min & (0x80000000);
+		long long max = 0x80000000; //MAX_INT+1
 		long long ans=0;
 		bool flag=true;
 		int i;
