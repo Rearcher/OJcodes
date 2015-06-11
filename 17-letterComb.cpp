@@ -5,9 +5,9 @@ public:
 			res.push_back(temp);
 		else
 			for(int i = 0; i < table[digits[index]-'0'].size(); i++) {
-				local.push_back(table[digits[index]-'0'][i]);
+				temp.push_back(table[digits[index]-'0'][i]);
 				backtracking(table, res, temp, index+1, digits);
-				local.pop_back();
+				temp.pop_back();
 			}
 		return;
 	}
