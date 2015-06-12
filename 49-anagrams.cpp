@@ -1,3 +1,4 @@
+//anagram就是很多个单词，它们由相同的字母组成，但字母的顺序可以不同，例如tea eat ate
 class Solution {
 public:
 	vector<string> anagrams(vector<string>& strs) {
