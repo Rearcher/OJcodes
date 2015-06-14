@@ -14,3 +14,14 @@ public:
 		return lo;
 	}
 };
+
+//Math solution, Newton's method
+int sqrt(int x) {
+	if(x==0) return 0;
+	double p, q=1;
+	do {
+		p = q;
+		q = x/(2*p)+p/2.0;
+	}while(abs(p-q)>0.00001);
+	return int(q);
+}
