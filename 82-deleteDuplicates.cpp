@@ -23,3 +23,21 @@ public:
 		return fakeHead->next;
 	}
 }
+
+//Solution2, pointer of pointer
+ListNode* deleteDuplicates(ListNode* head) {
+	ListNode **runner = &head;
+	if(!head || !head->next) return head;
+	while(*runner) {
+		if((*runner)->next && (*runner)->next->val==(*runner)->val)
+		{
+			ListNode *t = *runner;
+			while(t && t->val==(*runner)->val)
+				t = t->next;
+			*runner = t;
+		}
+		else
+			runner = &((*runner)->next);
+	}
+	return head;
+}
