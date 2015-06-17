@@ -47,7 +47,7 @@ class Solution {
 	}
 };
 
-//Solution2, use heap(size k). choose the least val
+//Solution2, use minimum heap(size k). choose the least val
 class Solution {
 	ListNode* mergeKLists(vector<ListNode*>& Lists) {
 		vector<ListNode*>::iterator it = Lists.begin();
