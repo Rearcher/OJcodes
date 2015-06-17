@@ -1,5 +1,6 @@
 class Solution {
 public:
+	//iterate from left to right
 	int numDecodings(string s) {
 		int n=s.size();
 		if(!n) return 0;
