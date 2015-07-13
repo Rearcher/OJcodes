@@ -4,8 +4,8 @@
  *		dp[i][j] = (dp[i-1][j-1] && s[i-1]==p[j-1])
  *else
  *		denote p[j-2] = x;
- *		'*' matches none : dp[i][j] = dp[i][j-2]
- *		'*' matches one or more x, "x*x": dp[i][j] = s[i-1]==x&&dp[i-1][j];
+ *		"x*" matches none : dp[i][j] = dp[i][j-2]
+ *		"x*" matches one or more x, "x*x": dp[i][j] = s[i-1]==x&&dp[i-1][j];
  *Don't forget '.' can match each
 */
 class Solution {
