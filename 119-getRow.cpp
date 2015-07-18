@@ -9,3 +9,10 @@ public:
 		return ans;
 	}
 };
+
+/* some math
+ * C(k,p) = k! / (p!*(k-p)!) = C(k,k-p);
+ * if p<k-p
+ * C(k,p) = C(k,p-1)*(k-p+1)/p;
+ */
+
