@@ -1,4 +1,4 @@
-class Solution {
+cass Solution {
 public:
 	ListNode *insertionSortList(ListNode *head) {
 		if(!head) return head;
