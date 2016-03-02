@@ -6,12 +6,7 @@ using namespace std;
 class Solution {
 public:
 	bool isSelfCrossing(vector<int> &x) {
-		if (x.size() <= 3) return false;
-		for (unsigned int i = 3; i < x.size(); i++) {
-			if (x[i] >= x[i-2] && x[i-1] <= x[i-3])
-				return true;
-		}
-		return false;
+	
 	}
 };
 
