@@ -26,5 +26,8 @@ public:
 };
 
 int main() {
+	vector<int> a{4, 2};
+	Solution s;
 
+	cout << s.containsNearby(a, 1, 2) << endl;
 }
