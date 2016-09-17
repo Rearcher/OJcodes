@@ -8,6 +8,11 @@
  *   2) else
  *          pop stack until stack.peek() <= heights[i]
  *          after each pop operation, calculate area
+ *
+ * and why?
+ * basic idea: for each bar x, calculate the area as bar x is the smallest bar
+ * and we need to know (index of the first smaller bar on left of x) and (the first smaller bar on right of x)
+ * that's why we need to keep index in stack increasing
  */ 
 public class Solution {
     public int largestRectangleArea(int[] heights) {
