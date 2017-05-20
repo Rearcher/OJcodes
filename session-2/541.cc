@@ -18,7 +18,6 @@ public:
 
             if (i >= n) break;
             temp = i + k <= n ? s.substr(i, k) : s.substr(i);
-            cout << i + k << " " << n << endl;
             result.append(string(temp));
             i = i + k <= n ? i + k : n;
         }
