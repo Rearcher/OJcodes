@@ -10,17 +10,21 @@ public:
         vector<string> result;
         vector<int> hours{8, 4, 2, 1};
         vector<int> minutes{32, 16, 8, 4, 2, 1};
+
         for (int i = 0; i <= num; ++i) {
             vector<int> hour_num = generate(hours, i);
             vector<int> minute_num = generate(minutes, num - i);
+
             for (int j = 0; j < hour_num.size(); ++j) {
                 if (hour_num[j] >= 12) continue;
                 for (int k = 0; k < minute_num.size(); ++k) {
                     if (minute_num[k] >= 60) continue;
-                    result.push_back(to_string(hour_num[j]) + ":" + (minute_num[k] < 10 ? "0" + to_string(minute_num[k]) : to_string(minute_num[k])));
+                    result.push_back(to_string(hour_num[j]) + ":" + 
+                        (minute_num[k] < 10 ? "0" + to_string(minute_num[k]) : to_string(minute_num[k])));
                 }
             }
         }
+        
         return result;
     }
 
