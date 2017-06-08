@@ -30,7 +30,7 @@ private:
         }
 
         result += helper(root->left, curSum, target, m) + helper(root->right, curSum, target, m);
-        m[curSum] -= 1; // important!
+        m[curSum] -= 1; // important! backtracking
 
         return result;
     }
