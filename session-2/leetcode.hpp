@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <cmath>
 #include <unordered_map>
+#include <stack>
 
 struct TreeNode {
     int val;
