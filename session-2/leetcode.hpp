@@ -2,6 +2,7 @@
 #define _LEETCODE_HPP_
 
 #include <iostream>
+#include <sstream>
 #include <vector>
 #include <string>
 #include <algorithm>
