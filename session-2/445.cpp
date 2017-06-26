@@ -19,57 +19,27 @@ public:
             tmp = tmp->next;
         }
 
-        ListNode* fakeHead = new ListNode(0), *curNode = NULL;
+        int sum = 0;
+        ListNode* head = new ListNode(0);
+        while (!a.empty() || !b.empty()) {
+            if (!a.empty()) {
+                sum += a.top();
+                a.pop();
+            }
 
-        int carry = 0;
-        while (!a.empty() && !b.empty()) {
-            int digit = a.top() + b.top() + carry;
-            carry = digit / 10;
-            digit = digit % 10;
-            
-            ListNode* tmpNode = new ListNode(digit);
-            fakeHead->next = tmpNode;
-            tmpNode->next = curNode;
-            curNode = tmpNode;
+            if (!b.empty()) {
+                sum += b.top();
+                b.pop();
+            }
 
-            a.pop();
-            b.pop();
+            head->val = sum % 10;
+            ListNode* newHead = new ListNode(sum / 10);
+            newHead->next = head;
+            head = newHead;
+            sum /= 10;
         }
 
-        while (!a.empty()) {
-            int digit = a.top() + carry;
-            carry = digit / 10;
-            digit = digit % 10;
-
-            ListNode* tmpNode = new ListNode(digit);
-            fakeHead->next = tmpNode;
-            tmpNode->next = curNode;
-            curNode = tmpNode;
-
-            a.pop();
-        }
-
-        while (!b.empty()) {
-            int digit = b.top() + carry;
-            carry = digit / 10;
-            digit = digit % 10;
-
-            ListNode* tmpNode = new ListNode(digit);
-            fakeHead->next = tmpNode;
-            tmpNode->next = curNode;
-            curNode = tmpNode;
-
-            b.pop();
-        }
-
-        if (carry > 0) {
-            ListNode* tmpNode = new ListNode(carry);
-            fakeHead->next = tmpNode;
-            tmpNode->next = curNode;
-            curNode = tmpNode;
-        }
-
-        return fakeHead->next;
+        return head->val == 0 ? head->next : head;
     }
 };
 
