@@ -12,6 +12,7 @@
 #include <stack>
 #include <cstdlib>
 #include <ctime>
+#include <numeric>
 
 struct TreeNode {
     int val;
