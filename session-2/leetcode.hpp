@@ -13,6 +13,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <numeric>
+#include <queue>
 
 struct TreeNode {
     int val;
