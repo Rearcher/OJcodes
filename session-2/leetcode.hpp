@@ -3,17 +3,20 @@
 
 #include <iostream>
 #include <sstream>
+
 #include <vector>
 #include <string>
-#include <algorithm>
-#include <cmath>
 #include <unordered_map>
 #include <unordered_set>
+#include <map>
 #include <stack>
+#include <queue>
+
+#include <algorithm>
+#include <cmath>
 #include <cstdlib>
 #include <ctime>
 #include <numeric>
-#include <queue>
 
 struct TreeNode {
     int val;
@@ -26,6 +29,13 @@ struct ListNode {
     int val;
     ListNode *next;
     ListNode(int x) : val(x), next(NULL) {}
+};
+
+struct Interval {
+    int start;
+    int end;
+    Interval() : start(0), end(0) {}
+    Interval(int s, int e) : start(s), end(e) {}
 };
 
 #endif
