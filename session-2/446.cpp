@@ -66,8 +66,31 @@ private:
     }
 };
 
+class Solution_DP_VERSION {
+public:
+    int numberOfArithmeticSlices(vector<int>& A) {
+        int n = A.size(), res = 0;
+        vector<unordered_map<int, int>> cache(n);
+
+        for (int i = 0; i < n; ++i) {
+            cache[i] = {};
+            for (int j = 0; j < i; ++j) {
+                long long diff = (long long)A[i] - (long long)A[j];
+                if (diff <= INT_MIN || diff >= INT_MAX) continue;
+
+                int c1 = cache[i][diff];
+                int c2 = cache[j][diff];
+                res += c2;
+                cache[i][diff] = c1 + c2 + 1;
+            }
+        }
+
+        return res;
+    }
+};
+
 int main() {
-    Solution s;
+    Solution_DP_VERSION s;
     vector<int> A{1, 2, 3, 4, 5, 6};
     cout << s.numberOfArithmeticSlices(A) << endl;
 }
