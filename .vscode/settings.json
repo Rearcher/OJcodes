@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp",
+        "chrono": "cpp",
+        "ostream": "cpp",
+        "system_error": "cpp",
+        "functional": "cpp",
+        "hashtable": "cpp",
+        "*.tcc": "cpp"
+    }
+}
