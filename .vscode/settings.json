@@ -11,6 +11,16 @@
         "system_error": "cpp",
         "functional": "cpp",
         "hashtable": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "iterator": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "queue": "cpp",
+        "set": "cpp",
+        "stack": "cpp",
+        "string_view": "cpp",
+        "vector": "cpp"
     }
 }
