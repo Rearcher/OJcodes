@@ -27,6 +27,7 @@
         "bitset": "cpp",
         "initializer_list": "cpp",
         "utility": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "__bit_reference": "cpp"
     }
 }
