@@ -192,7 +192,7 @@
   - [ ] [AOJ 2266: Cache Strategy](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2266)
   - [ ] [AOJ 2230: How to Create a Good Game](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2230)
   
-# 2.6 与平面和空间打交道的计算几何
+# 2.6 与平面和空间打交道的计算几何
 - 极限情况
   - [ ] [POJ 1981: Circle and Points](http://poj.org/problem?id=1981)
   - [ ] [POJ 1418: Viva Confetti](http://poj.org/problem?id=1418)
