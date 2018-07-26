@@ -144,7 +144,7 @@
   - [x] [POJ 1990: MooFest](http://poj.org/problem?id=1990)
   - [x] [POJ 3109: Inner Vertices](http://poj.org/problem?id=3109)
   - [x] [POJ 2155: Matrix](http://poj.org/problem?id=2155)
-  - [ ] [POJ 2886: Who Gets the Most Candies?](http://poj.org/problem?id=2886)
+  - [x] [POJ 2886: Who Gets the Most Candies?](http://poj.org/problem?id=2886)
 
 - 线段树和平方分割
   - [ ] [POJ 3264: Balanced Lineup](http://poj.org/problem?id=3264)
