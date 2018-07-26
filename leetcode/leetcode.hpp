@@ -12,6 +12,7 @@
 #include <map>
 #include <stack>
 #include <queue>
+#include <deque>
 #include <list>
 
 #include <algorithm>
