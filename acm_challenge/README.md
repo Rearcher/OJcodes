@@ -150,7 +150,7 @@
   - [x] [POJ 3264: Balanced Lineup](http://poj.org/problem?id=3264)
   - [x] [POJ 3368: Frequent values](http://poj.org/problem?id=3368)
   - [x] [POJ 3470: Walls](http://poj.org/problem?id=3470)
-  - [ ] [POJ 1201: Intervals](http://poj.org/problem?id=1201)
+  - [x] [POJ 1201: Intervals](http://poj.org/problem?id=1201)
   - [ ] [UVa 11990: "Dynamic" Inversion](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3141)
   
 # 2.4 熟练掌握动态规划
