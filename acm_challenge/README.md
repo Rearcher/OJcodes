@@ -4,7 +4,7 @@
 
 # 1.1 最基础的穷竭搜索
 - 深度优先搜索
-  - [ ] [POJ 1979: Red and Black](http://poj.org/problem?id=1979)
+  - [x] [POJ 1979: Red and Black](http://poj.org/problem?id=1979)
   - [ ] [AOJ 0118: Property Distribution](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0118)
   - [ ] [AOJ 0033: Ball](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033)
   - [ ] [POJ 3009: Curling 2.0](http://poj.org/problem?id=3009)
