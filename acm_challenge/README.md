@@ -11,7 +11,7 @@
 
 - 广度优先搜索
   - [ ] [AOJ 0558: Cheese](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0558)
-  - [ ] [POJ 3669: Meteor Shower](http://poj.org/problem?id=3669)
+  - [x] [POJ 3669: Meteor Shower](http://poj.org/problem?id=3669)
   - [ ] [AOJ 0121: Seven Puzzle](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0121)
 
 - 穷竭搜索
