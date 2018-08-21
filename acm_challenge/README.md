@@ -17,7 +17,7 @@
 - 穷竭搜索
   - [x] [POJ 2718: Smallest Difference](http://poj.org/problem?id=2718)
   - [x] [POJ 3187: Backward Digit Sums](http://poj.org/problem?id=3187)
-  - [ ] [POJ 3050: Hopscotch](http://poj.org/problem?id=3050)
+  - [x] [POJ 3050: Hopscotch](http://poj.org/problem?id=3050)
   - [ ] [AOJ 0525: Osenbei](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0525)
 
 # 1.2 一直往前！贪心法
