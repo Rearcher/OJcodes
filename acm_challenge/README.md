@@ -24,7 +24,7 @@
 - 区间
   - [x] [POJ 2376: Cleaning Shifts](http://poj.org/problem?id=2376)
   - [x] [POJ 1328: Radar Installation](http://poj.org/problem?id=1328)
-  - [ ] [POJ 3190: Stall Reservations](http://poj.org/problem?id=3190)
+  - [x] [POJ 3190: Stall Reservations](http://poj.org/problem?id=3190)
   
 - 其他
   - [ ] [POJ 2393: Yogurt factory](http://poj.org/problem?id=2393)
