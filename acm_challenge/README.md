@@ -31,7 +31,7 @@
   - [x] [POJ 1017: Packets](http://poj.org/problem?id=1017)
   - [x] [POJ 3040; Allowance](http://poj.org/problem?id=3040)
   - [x] [POJ 1862: Stripies](http://poj.org/problem?id=1862)
-  - [ ] [POJ 3262: Protecting the Flowers](http://poj.org/problem?id=3262)
+  - [x] [POJ 3262: Protecting the Flowers](http://poj.org/problem?id=3262)
   
 # 1.3 记录结果再利用的“动态规划”
 - 基础的动态规划算法
