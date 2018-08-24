@@ -29,7 +29,7 @@
 - 其他
   - [x] [POJ 2393: Yogurt factory](http://poj.org/problem?id=2393)
   - [x] [POJ 1017: Packets](http://poj.org/problem?id=1017)
-  - [ ] [POJ 3040; Allowance](http://poj.org/problem?id=3040)
+  - [x] [POJ 3040; Allowance](http://poj.org/problem?id=3040)
   - [ ] [POJ 1862: Stripies](http://poj.org/problem?id=1862)
   - [ ] [POJ 3262: Protecting the Flowers](http://poj.org/problem?id=3262)
   
