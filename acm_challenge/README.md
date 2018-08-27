@@ -35,7 +35,7 @@
   
 # 1.3 记录结果再利用的“动态规划”
 - 基础的动态规划算法
-  - [ ] [POJ 3176: Cow Bowling](http://poj.org/problem?id=3176)
+  - [x] [POJ 3176: Cow Bowling](http://poj.org/problem?id=3176)
   - [ ] [POJ 2229: Sumsets](http://poj.org/problem?id=2229)
   - [ ] [POJ 2385: Apple Catching](http://poj.org/problem?id=2385)
   - [ ] [POJ 3616: Milking Time](http://poj.org/problem?id=3616)
