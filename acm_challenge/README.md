@@ -38,7 +38,7 @@
   - [x] [POJ 3176: Cow Bowling](http://poj.org/problem?id=3176)
   - [x] [POJ 2229: Sumsets](http://poj.org/problem?id=2229)
   - [x] [POJ 2385: Apple Catching](http://poj.org/problem?id=2385)
-  - [ ] [POJ 3616: Milking Time](http://poj.org/problem?id=3616)
+  - [x] [POJ 3616: Milking Time](http://poj.org/problem?id=3616)
   - [ ] [POJ 3280: Cheapest Palindrome](http://poj.org/problem?id=3280)
 
 - 优化递推关系式
