@@ -39,7 +39,7 @@
   - [x] [POJ 2229: Sumsets](http://poj.org/problem?id=2229)
   - [x] [POJ 2385: Apple Catching](http://poj.org/problem?id=2385)
   - [x] [POJ 3616: Milking Time](http://poj.org/problem?id=3616)
-  - [ ] [POJ 3280: Cheapest Palindrome](http://poj.org/problem?id=3280)
+  - [x] [POJ 3280: Cheapest Palindrome](http://poj.org/problem?id=3280)
 
 - 优化递推关系式
   - [ ] [POJ 1742: Coins](http://poj.org/problem?id=1742)
