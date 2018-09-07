@@ -44,7 +44,7 @@
 - 优化递推关系式
   - [x] [POJ 1742: Coins](http://poj.org/problem?id=1742)
   - [x] [POJ 3046: Ant Counting](http://poj.org/problem?id=3046)
-  - [ ] [POJ 3181: Dollar Dayz](http://poj.org/problem?id=3181)
+  - [x] [POJ 3181: Dollar Dayz](http://poj.org/problem?id=3181)
   
 - 需稍加思考的题目
   - [ ] [POJ 1065: Wooden Sticks](http://poj.org/problem?id=1065)
