@@ -50,7 +50,7 @@
   - [x] [POJ 1065: Wooden Sticks](http://poj.org/problem?id=1065)
   - [x] [POJ 1631: Bridging signals](http://poj.org/problem?id=1631)
   - [x] [POJ 3666: Making the Grade](http://poj.org/problem?id=3666)
-  - [ ] [POJ 2392: Space Elevator](http://poj.org/problem?id=2392)
+  - [x] [POJ 2392: Space Elevator](http://poj.org/problem?id=2392)
   - [ ] [POJ 2184: Cow Exhibition](http://poj.org/problem?id=2184)
   
 # 1.4 加工并存储数据的数据结构
