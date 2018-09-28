@@ -66,7 +66,7 @@
 # 1.5 它们其实都是“图”
 - 最短路
   - [ ] [AOJ 0189: Convenient Location](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0189)
-  - [ ] [POJ 2139: Six Degrees of Cowvin Bacon](http://poj.org/problem?id=2139)
+  - [x] [POJ 2139: Six Degrees of Cowvin Bacon](http://poj.org/problem?id=2139)
   - [ ] [POJ 3259: Wormholes](http://poj.org/problem?id=3259)
   - [ ] [POJ 3268: Silver Cow Party](http://poj.org/problem?id=3268)
   - [ ] [AOJ 2249: Road Construction](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2249)
