@@ -61,7 +61,7 @@
 - 并查集
   - [x] [POJ 2236: Wireless Network](http://poj.org/problem?id=2236)
   - [x] [POJ 1703: Find them, Catch them](http://poj.org/problem?id=1703)
-  - [ ] [AOJ 2170: Marked Ancestor](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2170)
+  - [x] [AOJ 2170: Marked Ancestor](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2170)
 
 # 1.5 它们其实都是“图”
 - 最短路
