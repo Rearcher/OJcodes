@@ -76,7 +76,7 @@
   - [x] [POJ 1258: Agri-Net](http://poj.org/problem?id=1258)
   - [x] [POJ 2377: Bad Cowtractors](http://poj.org/problem?id=2377)
   - [ ] [AOJ 2224: Save Your Cats](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2224)
-  - [ ] [POJ 2395: Out of Hay](http://poj.org/problem?id=2395)
+  - [x] [POJ 2395: Out of Hay](http://poj.org/problem?id=2395)
   
 # 1.6 数学问题的解题窍门
 - 辗转相除法
