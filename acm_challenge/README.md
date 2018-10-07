@@ -81,7 +81,7 @@
 # 1.6 数学问题的解题窍门
 - 辗转相除法
   - [ ] [AOJ 0005: GCD and LCM](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0005)
-  - [ ] [POJ 2429: GCD & LCM Inverse](http://poj.org/problem?id=2429)
+  - [x] [POJ 2429: GCD & LCM Inverse](http://poj.org/problem?id=2429)
   - [ ] [POJ 1930: Dead Fraction](http://poj.org/problem?id=1930)
   
 - 素数
