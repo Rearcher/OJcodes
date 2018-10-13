@@ -99,7 +99,7 @@
 # 2.1 不光是查找值！“二分搜索”
 - 最大化最小值
   - [x] [POJ 3258: River Hopscotch](http://poj.org/problem?id=3258)
-  - [ ] [POJ 3273: Monthly Expense](http://poj.org/problem?id=3273)
+  - [x] [POJ 3273: Monthly Expense](http://poj.org/problem?id=3273)
   - [ ] [POJ 3104: Drying](http://poj.org/problem?id=3104)
   - [ ] [POJ 3045: Cow Acrobats](http://poj.org/problem?id=3045)
 
