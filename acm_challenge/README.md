@@ -105,7 +105,7 @@
 
 - 最大化平均值
   - [x] [POJ 2976: Dropping tests](http://poj.org/problem?id=2976)
-  - [ ] [POJ 3111: K Best](http://poj.org/problem?id=3111)
+  - [x] [POJ 3111: K Best](http://poj.org/problem?id=3111)
 
 - 查找第k大值
   - [ ] [POJ 3579: Median](http://poj.org/problem?id=3579)
