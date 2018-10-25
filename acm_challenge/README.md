@@ -109,7 +109,7 @@
 
 - 查找第k大值
   - [x] [POJ 3579: Median](http://poj.org/problem?id=3579)
-  - [ ] [POJ 3685: Matrix](http://poj.org/problem?id=3685)
+  - [x] [POJ 3685: Matrix](http://poj.org/problem?id=3685)
 
 - 最小化第k大值
   - [ ] [POJ 2010: Moo University - Financial Aid](http://poj.org/problem?id=2010)
