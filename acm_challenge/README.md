@@ -108,7 +108,7 @@
   - [x] [POJ 3111: K Best](http://poj.org/problem?id=3111)
 
 - 查找第k大值
-  - [ ] [POJ 3579: Median](http://poj.org/problem?id=3579)
+  - [x] [POJ 3579: Median](http://poj.org/problem?id=3579)
   - [ ] [POJ 3685: Matrix](http://poj.org/problem?id=3685)
 
 - 最小化第k大值
