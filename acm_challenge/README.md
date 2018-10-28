@@ -116,7 +116,7 @@
   - [x] [POJ 3662: Telephone Lines](http://poj.org/problem?id=3662)
 
 - 其他
-  - [ ] [POJ 1759: Garland](http://poj.org/problem?id=1759)
+  - [x] [POJ 1759: Garland](http://poj.org/problem?id=1759)
   - [ ] [POJ 3484: Showstopper](http://poj.org/problem?id=3484)
 
 # 2.2 常用技巧精选（一）
