@@ -123,7 +123,7 @@
 - 尺取法
   - [x] [POJ 2566: Bound Found](http://poj.org/problem?id=2566)
   - [x] [POJ 2739: Sum of Consecutive Prime Numbers](http://poj.org/problem?id=2739)
-  - [ ] [POJ 2100: Graveyard Design](http://poj.org/problem?id=2100)
+  - [x] [POJ 2100: Graveyard Design](http://poj.org/problem?id=2100)
 
 - 反转
   - [ ] [POJ 3185: The Water Bowls](http://poj.org/problem?id=3185)
