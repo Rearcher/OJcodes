@@ -127,7 +127,7 @@
 
 - 反转
   - [x] [POJ 3185: The Water Bowls](http://poj.org/problem?id=3185)
-  - [ ] [POJ 1222: EXTENDED LIGHTS OUT](http://poj.org/problem?id=1222)
+  - [x] [POJ 1222: EXTENDED LIGHTS OUT](http://poj.org/problem?id=1222)
 
 - 弹性碰撞
   - [ ] [POJ 2674: Linear world](http://poj.org/problem?id=2674)
