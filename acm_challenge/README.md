@@ -155,7 +155,7 @@
 
 # 2.4 熟练掌握动态规划
 - 状态压缩DP
-  - [ ] [POJ 2441: Arrange the Bulls](http://poj.org/problem?id=2441)
+  - [x] [POJ 2441: Arrange the Bulls](http://poj.org/problem?id=2441)
   - [ ] [POJ 3254: Corn Fields](http://poj.org/problem?id=3254)
   - [ ] [POJ 2836: Rectangular Covering](http://poj.org/problem?id=2836)
   - [ ] [POJ 1795: DNA Laboratory](http://poj.org/problem?id=1795)
