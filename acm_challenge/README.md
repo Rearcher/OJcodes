@@ -158,7 +158,7 @@
   - [x] [POJ 2441: Arrange the Bulls](http://poj.org/problem?id=2441)
   - [x] [POJ 3254: Corn Fields](http://poj.org/problem?id=3254)
   - [x] [POJ 2836: Rectangular Covering](http://poj.org/problem?id=2836)
-  - [ ] [POJ 1795: DNA Laboratory](http://poj.org/problem?id=1795)
+  - [x] [POJ 1795: DNA Laboratory](http://poj.org/problem?id=1795)
   - [ ] [POJ 3411: Paid Roads](http://poj.org/problem?id=3411)
 
 - 矩阵的幂
