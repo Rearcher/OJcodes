@@ -163,7 +163,7 @@
 
 - 矩阵的幂
   - [x] [POJ 3420: Quad Tiling](http://poj.org/problem?id=3420)
-  - [ ] [POJ 3735: Training little cats](http://poj.org/problem?id=3735)
+  - [x] [POJ 3735: Training little cats](http://poj.org/problem?id=3735)
 
 - 利用数据结构高效求解
   - [ ] [POJ 3171: Cleaning Shifts](http://poj.org/problem?id=3171)
