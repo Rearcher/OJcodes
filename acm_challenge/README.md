@@ -166,7 +166,7 @@
   - [x] [POJ 3735: Training little cats](http://poj.org/problem?id=3735)
 
 - 利用数据结构高效求解
-  - [ ] [POJ 3171: Cleaning Shifts](http://poj.org/problem?id=3171)
+  - [x] [POJ 3171: Cleaning Shifts](http://poj.org/problem?id=3171)
 
 # 2.5 借助水流解决问题的网络流
 - 最大流与最小割
