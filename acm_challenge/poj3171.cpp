@@ -56,7 +56,7 @@ Cow cow[10010];
 int n, m, e;
 
 int main() {
-    freopen("input", "r", stdin);
+    // freopen("input", "r", stdin);
     cin >> n >> m >> e;
     for (int i = 0; i < n; ++i) {
         cin >> cow[i].t1 >> cow[i].t2 >> cow[i].s;
