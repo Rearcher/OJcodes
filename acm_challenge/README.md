@@ -267,7 +267,7 @@
 
 # 3.4 常用技巧精选（二）
 - 栈
-  - [ ] [POJ 3250: Bad Hair Day](http://poj.org/problem?id=3250)
+  - [x] [POJ 3250: Bad Hair Day](http://poj.org/problem?id=3250)
   - [ ] [POJ 2082: Terrible Sets](http://poj.org/problem?id=2082)
   - [ ] [POJ 3494: Largest Submatrix of All 1’s](http://poj.org/problem?id=3494)
 
