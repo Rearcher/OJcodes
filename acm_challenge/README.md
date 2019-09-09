@@ -311,7 +311,7 @@
   - [ ] [AOJ 1312: Where's Wally](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1312)
 
 - 后缀数组
-  - [ ] [POJ 1509: Glass Beads](http://poj.org/problem?id=1509)
+  - [x] [POJ 1509: Glass Beads](http://poj.org/problem?id=1509)
   - [ ] [POJ 3415: Common Substrings](http://poj.org/problem?id=3415)
   - [ ] [POJ 3729: Facer’s string](http://poj.org/problem?id=3729)
   - [ ] [AOJ 2292: Common Palindromes](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2292)
